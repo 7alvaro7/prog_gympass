@@ -25,14 +25,14 @@ En esta primera fase se trabajará:
 
 El gimnasio **GymPass** necesita un sistema básico para representar a sus socios registrados.
 
-Cada socio tiene:
+Cada Socio tiene:
 - Un número identificador único dentro del gimnasio
 - Un nombre
 Cada sala tiene: 
 - Un número identificador único dentro del gimnasio
 - Descripción de la sala
 El gimnasio: 
-El sistema debe permitir representar correctamente a cada socio y mostrar su información en formato legible.
+El sistema debe permitir representar correctamente a cada Socio y mostrar su información en formato legible.
 
 ## Requisitos Técnicos
 
@@ -91,7 +91,7 @@ Sin arrays todavía.
 boolean registrarSocio(Socio s)
 ```
 - Inserta en la primera posición libre.
-- No permite números de socio repetidos.
+- No permite números de Socio repetidos.
 - Devuelve `true` o `false`.
 
 >[!important] Haz un commit en este punto
@@ -100,7 +100,7 @@ boolean registrarSocio(Socio s)
 ```java
 Socio expulsarSocio(int numero)
 ```
-- Elimina al socio si existe.
+- Elimina al Socio si existe.
 - Devuelve el objeto eliminado.
 - Si no existe → `null`.
 
@@ -118,7 +118,7 @@ boolean existeSocio(int numero)
 ```java
 boolean designarResponsable(int numeroSocio)
 ```
-- Solo válido si el socio pertenece al gimnasio.
+- Solo válido si el Socio pertenece al gimnasio.
 
 >[!important] Haz un commit en este punto
 
@@ -167,7 +167,7 @@ Debe devolver un texto con:
 boolean registrarSocio(Socio s)
 ```
 - Inserta en la primera posición libre.
-- No permite números de socio repetidos.
+- No permite números de Socio repetidos.
 - Devuelve `true` o `false`.
 
 >[!important] Haz un commit en este punto
@@ -175,7 +175,7 @@ boolean registrarSocio(Socio s)
 ```java
 Socio expulsarSocio(int numero)
 ```
-- Elimina al socio si existe.
+- Elimina al Socio si existe.
 - Devuelve el objeto eliminado.
 - Si no existe → `null`.
 
@@ -191,7 +191,7 @@ boolean existeSocio(int numero)
 ```java
 boolean designarResponsable(int numeroSocio)
 ```
-- Solo válido si el socio pertenece al gimnasio.
+- Solo válido si el Socio pertenece al gimnasio.
 
 >[!important] Haz un commit en este punto
 
